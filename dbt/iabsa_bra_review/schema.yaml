@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: dim_vendor
+    config:
+      contract:
+        enforced: true
+    columns:
+      - name: id
+        constraints:
+          - type: primary_key
